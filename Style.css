@@ -1,6 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+@font-face {
+    font-family:"LogoFont";
+    src: url("./font/NicoMoji-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("./font/RobotoCondensed-Regular.ttf");
+}
+.container
+{
+margin-left: auto;
+margin-right: auto;
+width: 1440px;
+margin-top: -25px;
+height: 2041px;
+background-color: whitesmoke;
+margin-bottom: -25px;
+
+}
+.header{
+background-image: url("haeder.jpg");
+height: 556px;
+width: 1440px;
+margin: 0px;
+padding: 0px;
+
+}
+
+.logo{
+    margin-top: 24px;
+    margin-left: 58px;
+    font-size: 40px;
+    font-family: "LogoFont";
+    letter-spacing: -5px;
+    color: white;
+}
+.intro
+{
+    margin-top: 239px;
+    margin-left: 160px;
+    width: 1162px;
+    height: 621px;
+    font-family: "Roboto";
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 2px rgb(66, 66, 66);
+}
+.profilePic{
     
 }
