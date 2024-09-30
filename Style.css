@@ -51,11 +51,11 @@ padding: 0px;
     padding-bottom: 0px;
 }
 .profilePic{
-    
     border-radius: 10px;
     width: 443px;
     height: 409px;
     margin-left: 45px;
+    margin-top: 45px;
 }
 .profilePic img {
     max-width: 100%;
