@@ -17,6 +17,7 @@ margin-top: -25px;
 height: 2041px;
 background-color: whitesmoke;
 margin-bottom: -25px;
+position: relative;
 
 }
 .header{
@@ -29,16 +30,19 @@ padding: 0px;
 }
 
 .logo{
-    margin-top: 24px;
-    margin-left: 58px;
+    top: 35px;
+    left: 58px;
     font-size: 40px;
     font-family: "LogoFont";
     letter-spacing: -5px;
     color: white;
+    position: absolute;
+    align-self: hover;
+    
 }
 .intro
 {
-    margin-top: 239px;
+    margin-top: -350px;
     margin-left: 160px;
     width: 1162px;
     height: 500px;
@@ -49,6 +53,7 @@ padding: 0px;
     box-shadow: 0 0 8px 2px rgb(66, 66, 66);
     padding-top: 45px;
     padding-bottom: 0px;
+    position: absolute;
 }
 .profilePic{
     
@@ -98,9 +103,6 @@ padding: 0px;
     color: black;
 }
 
-.pMenu{
-
-}
 
 .pEmail{
     margin-top: 15px;
