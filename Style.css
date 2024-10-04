@@ -81,3 +81,19 @@ padding: 0px;
     color: black;
 
 }
+
+.pRole{
+    font-family: "Roboto";
+    margin-left: 545px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: black;
+}
+
+.pIntro{
+    font-family: "Roboto";
+    margin-left: 545px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+}
